@@ -1,0 +1,35 @@
+/*
+ *   Copyright (c) 2021 
+ *   All rights reserved.
+ */
+body {
+  font-family: "Cairo", sans-serif;
+}
+
+/* START heading */
+.header .heaad-bar {
+  flex-direction: row-reverse;
+}
+
+.header .links {
+  right: 0;
+}
+/* END heading */
+
+/* service section is ok */
+/* subjects section is ok */
+/* teachers section is ok */
+
+/* Start About section */
+
+.about .container .article{
+  column-gap: 100px;
+}
+
+@media (min-width: 1200px) {
+  .about .container .article .one {
+    margin-right: 50px;
+  }
+
+}
+/* End About section */
